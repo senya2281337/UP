@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylekatalog.css">
+</head>
+<body>
+    <div class="vverh">
+        <div class="shapka">
+            <div class="logo">
+                <img src="img/logo 2.png" alt="">
+                <p>Продажа автозапчастей<br>
+                для популярных марок<br>
+                автомобилей</p>
+            </div>
+
+            <div class="zvonok">
+            <img src="img/Vectorzvonok.png">
+            <p>Отдел продаж:<br>7 (831) 418-58-57<br>7 (831) 418-58-56</p>
+        </div>
+
+            <div class="chasi">
+                <img src="img/chasi.png">
+                <p>Время работы:<br><strong>8:30-16:30</strong><br>сб,вс-выходной</p>
+                </div>
+
+
+                <div class="menu">
+                    <a href="vhod.html"> <p><img src="img/chelovek.png"><br>
+                    Вход</p></a>
+                    <a href="korzina.html"><p><img src="img/korzina.png"><br>
+                    Корзина</p></a>
+                </div>
+        </div>
+        <div class="navig">
+            <p><a href="gps.html"> <b>Где нас найти</b></a></p>
+            <p><b><a href="index.html"> О нас</a></b></p>
+        </div>
+    </div>
+
+    <div class="katalog">
+        <h1 align="center"><b>Каталог</b></h1>
+        <div class="filter">
+            <div class="main">
+            <p id="nadp">Фильтры</p>
+            <div class="sortir">
+                <div class="sortirovkap">
+                    <p id="sort"><b>Сортировка:</b></p>
+                </div>
+                
+                <div class="vibor">
+                    <input type="radio" name="choice" onclick="window.location.href='sortpovozr.html'"> По возрастанию цены
+                    <input type="radio" name="choice"> По году производства по возрастанию<br>
+                    <input type="radio" name="choice"> По убыванию цены
+                    <input type="radio" id="poubivgod" name="choice"> По году производства по убыванию
+                </div>
+
+                
+
+                <div class="akse">
+                    <input type="checkbox" name="choice2"> <p>Запчасти </p>
+                    <input type="checkbox" id="ch2" name="choice2"> <p>Лаки и краски</p>
+                    <input type="checkbox" id="ch3" name="choice2"> <p>Аксессуары</p>
+                </div>
+                <script>
+                    let checkboxes = document.querySelectorAll('input[type="checkbox"][name="choice2"]');
+                    checkboxes.forEach(checkbox => {
+                      checkbox.addEventListener('change', function() {
+                        if (this.checked) {
+                          checkboxes.forEach(cb => {
+                            if (cb !== this) {
+                              cb.checked = false;
+                            }
+                          });
+                        }
+                      });
+                    });
+                  </script>
+
+                <div class="find">
+                    <div class="poisk">
+                        <h1>Поиск</h1>
+                        <input type="search" placeholder="Например:Mercedes"><br>
+                    </div>
+                    <button id="iskat"><p>Поиск</p></button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pervayastroka">
+            <div class="card1">
+                <img src="img/dvigatel.jpg">
+                <h1 align="center">Двигатель mercedes m113</h1>
+                <p><strong>150000 руб</strong></p>
+                <a href="item.html"><button>Подробнее</button></a> 
+            </div>
+
+            <div class="card2">
+                <img src="img/podushka.png">
+                <h1 align="center">Подушка безопасности  
+                    BMW 2009+ F10</h1>
+                <p><b>6000 руб</b></p>
+                <button>Подробнее</button>
+            </div>
+
+            <div class="card3">
+                <img src="img/shini.png">
+                <h1 align="center">Шины Tracmax X-Privilo S500 19r</h1>
+                <p><b>12000 руб</b></p>
+               <a href="item2.html"><button>Подробнее</button></a>
+            </div>
+    </div>
+    
+    <div class="vtorayastroka">
+        <div class="card4">
+            <img src="img/accum.png">
+            <h1 align="center">Аккумулятор автомобильный RUNNER AGM 70R RK700</h1>
+            <p><b>19000 руб</b></p>
+            <a href="item3.html"> <button>Подробнее</button></a>
+        </div>
+
+        <div class="card5">
+            <img src="img/toplivo.png">
+            <h1 align="center">Моторное масло LUKOIL Super</h1>
+            <p><b>1500 руб</b></p>
+            <button>Подробнее</button>
+        </div>
+
+        <div class="card6">
+            <img src="img/kovriki.png">
+            <h1 align="center">Коврики в салон Hyundai Solaris</h1>
+            <p><b>2500 руб</b></p>
+            <button>Подробнее</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="ssilk">
+            <ul>
+                <li>Каталог</li>
+                <li>О нас</li>
+            </ul>
+            <ul>
+                <li>Где нас найти</li>
+                <li>Личный кабинет</li>
+            </ul>
+        </div>
+        <div class="rasp">
+            <div class="zvonok">
+                <img src="img/Vectorzvonok.png">
+                <p>Отдел продаж:<br>7 (831) 418-58-57<br>7 (831) 418-58-56</p>
+            </div>
+    
+                <div class="chasi">
+                    <img src="img/chasi.png">
+                    <p>Время работы:<br><strong>8:30-16:30</strong><br>сб,вс-выходной</p>
+                </div>
+        </div>
+    
+        <div class="adress">
+            <img src="img/adress.png">
+            <p><b>Адрес:</b><br>
+            г.Пермь<br>
+            Ул.Пушкина д.107А</p>
+        </div>
+        <div class="podpis">
+            <p><b>Разработчик:<br>
+            Калиновский Арсений 1-ИС 3 курс 09.02.07<br>
+            Информационные системы и программирование</b></p>
+        </div>
+    
+</body>
+</html>

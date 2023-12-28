@@ -1,0 +1,192 @@
+body{
+    overflow: hidden;
+}
+table{
+    margin-top: 1.5em;
+    margin-left: 1em;
+    border-radius: 3em;
+}
+
+
+.info{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img{
+    width: 200px;
+    height: 200px;
+}
+
+#leviy{
+    width: 600px;
+    height: 100%;
+}
+
+#izmenit{
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+    width: 8em;
+    height: 1.5em;
+    border-radius: 1em ;
+    font-size: 24px;
+    margin-top: 1em;
+}
+#izmenit:hover {
+    background-color: #1fac42;
+    color: #ffffff; 
+}
+
+#delete{
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+    width: 8em;
+    height: 1.5em;
+    border-radius: 1em ;
+    font-size: 24px;
+    margin-top: 1em;
+}
+#delete:hover {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+.info p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    text-align: left;
+    margin-left: 2.5em;
+    margin-top: 0.5em;
+}
+
+#change{
+    background-color: rgb(6, 216, 34);
+    border:none;
+    border-radius: 1em;
+    margin-left: 1em;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#praviy{
+    margin-left: 1em;
+    width: 37em;
+    height: 30em;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-radius: 2em;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    border-collapse: collapse;
+    height: 17em;
+    text-align: center;
+}
+
+#praviy td{
+    border: rgb(255, 255, 255) solid;
+    border-color: rgb(0, 0, 0);
+}
+
+#bolshoy{
+    width: 500px;
+ 
+}
+
+#menshiy{
+    width: 300px;
+}
+
+#summ{
+    font-size: 44px;
+}
+
+#summm{
+    width: 100%;
+    text-align: left;
+}
+
+#korzinalk{
+    width: 71px;
+    height: 51px;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+#korzinass{
+    width: 14em;
+    height: 2em;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border:none;
+    border-radius: 2em;
+    outline: none;
+    margin-left: 2em;
+    transition:  all 0.3s;
+    font-size: 24px;
+}
+
+#korzinass:hover{
+    background-color: rgb(76, 172, 76);
+    color: white;
+}
+
+#exit{
+    width: 14em;
+    height: 2em;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border:none;
+    border-radius: 2em;
+    outline: none;
+    margin-left: 2em;
+    transition: all 0.3s;
+    font-size: 24px;
+}
+
+#exit:hover{
+    background-color: #a82e2e; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+#see{
+    width: 13em;
+    height: 2em;
+    background-color: black;
+    color:white;
+    border: none solid;
+    outline: none;
+    border-radius: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 4em;
+    text-decoration: none;
+}
+#see a{
+    text-decoration: none;
+    color: white;
+}
+
+#bolshoy h1{
+    font-size: 32px;
+}
+
+#menshiy h1{
+    font-size: 32px;
+}
+
+#exit a{
+    text-decoration: none;
+    color:black
+}

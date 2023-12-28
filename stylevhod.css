@@ -1,0 +1,229 @@
+.vhod{
+    width: 40em;
+    height: 40em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    margin-top: 7rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+
+}
+
+.vhod p{
+    color:rgb(0, 0, 0)
+}
+
+.vverh img{
+    width: 5em;
+    height: 5em;
+    margin-left: 26em;
+    margin-top: -1em;
+}
+
+.vverh{
+    margin-left: 6rem;
+}
+
+
+
+body{
+    display:flex ;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+}
+
+.login h1{
+    color: black;
+}
+
+.login input{
+    width: 29em;
+    height: 4em;
+    border-radius: 3em;
+    border: 5px solid black;
+    margin-top: -1em;
+    background-color: rgb(221, 220, 220);
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password h1{
+    color: rgb(0, 0, 0);
+}
+
+.password input{
+    width: 29em;
+    height: 4em;
+    border-radius: 3em;
+    margin-top: -1em;
+    border: 1px;
+    background-color: rgb(221, 220, 220);
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.vhod input{
+    width: 29em;
+    height: 4em;
+    border-radius: 3em;
+    margin-top: -1em;
+    border: none;
+}
+
+.enter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+#voyti{
+    width: 10em;
+    height: 3em;
+    font-size: 32px;
+    border-radius: 3em;
+    background-color: white;
+
+}
+
+.noacc{
+    text-align: center;
+}
+
+.noacc a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 720px) {
+    .vhod{
+        width: 40em;
+        height: 40em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5rem;
+        margin-top: 7rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+    
+    }
+    
+    .vhod p{
+        color:rgb(0, 0, 0)
+    }
+    
+    .vverh img{
+        width: 3em;
+        height: 3em;
+        margin-left: 26em;
+        margin-top: -1em;
+    }
+    
+    .vverh{
+        margin-left: 6rem;
+    }
+    
+    
+    
+    body{
+        display:flex ;
+        justify-content: center;
+    }
+    
+    .login{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        color:black;
+    }
+    
+    .login h1{
+        color: black;
+    }
+    
+    .login input{
+        width: 1em;
+        height: 2em;
+        border-radius: 3em;
+        border: 5px solid black;
+        margin-top: -1em;
+        background-color: rgb(221, 220, 220);
+        color:rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .password{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .password h1{
+        color: rgb(0, 0, 0);
+    }
+    
+    .password input{
+        width: 10em;
+        height: 2em;
+        border-radius: 3em;
+        margin-top: -1em;
+        border: 1px;
+        background-color: rgb(221, 220, 220);
+        color:rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .vhod input{
+        width: 10em;
+        height: 2em;
+        border-radius: 3em;
+        margin-top: -1em;
+        border: none;
+    }
+    
+    .enter{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+    #voyti{
+        width: 10em;
+        height: 3em;
+        font-size: 32px;
+        border-radius: 3em;
+        background-color: white;
+    
+    }
+    
+    .noacc{
+        text-align: center;
+    }
+    
+    .noacc a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+

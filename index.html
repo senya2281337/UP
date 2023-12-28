@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+    <div class="vverh">
+        <div class="shapka">
+            <div class="logo">
+                <img src="img/logo 2.png" alt="">
+                <p>Продажа автозапчастей<br>
+                для популярных марок<br>
+                автомобилей</p>
+            </div>
+
+            <div class="zvonok">
+            <img src="img/Vectorzvonok.png">
+            <p>Отдел продаж:<br>7 (831) 418-58-57<br>7 (831) 418-58-56</p>
+        </div>
+
+            <div class="chasi">
+                <img src="img/chasi.png">
+                <p>Время работы:<br><strong>8:30-16:30</strong><br>сб,вс-выходной</p>
+                </div>
+
+
+                <div class="menu">
+                    <p><a href="vhod.html"><img src="img/chelovek.png"><br>
+                    Вход</a></p>
+                    <p><a href="korzina.html"><img src="img/korzina.png"><br>
+                    Корзина</a></p>
+                </div>
+        </div>
+        <div class="navig">
+            <p><a href="gps.html"> <b>Где нас найти</b></a></p>
+            <p> <a href="katalog1.html"><b>Каталог</b></a></p>
+        </div>
+    </div>
+
+    <script>
+        var currentImage = 0;
+        
+        function switchImage(direction) {
+            var images = document.getElementsByClassName('gallery-img');
+            images[currentImage].classList.add('hidden');
+            
+            if (direction === 'next') {
+                currentImage = (currentImage + 1) % images.length;
+            } else if (direction === 'previous') {
+                currentImage = (currentImage - 1 + images.length) % images.length;
+            }
+            
+            images[currentImage].classList.remove('hidden');
+        }
+    </script>
+    <div class="slider">
+        <button onclick="switchImage('previous')" style="background-color: none;"><img src="img/back.PNG"> </button>
+        <div class="gallery-container">
+            <img class="gallery-img" src="img/slider1.jpeg">
+            <img class="gallery-img hidden" src="img/slider2.png">
+            <img class="gallery-img hidden" src="img/slider3.jpg">
+    </div>
+    <button onclick="switchImage('next')"><img src="img/next.PNG"></button>
+</div>
+
+<div class="textcompany">
+        <p>Компания "АвтоТвоё" - ваш надёжный партнёр в мире автозапчастей.<br>Мы с гордостью сотрудничаем с ведущими
+            автомобильными брендами,<br>
+             чтобы предоставить вам широкий ассортимент высококачественных запчастей.
+             Мы полностью осознаем, что для вас,как владельца <br>автомобиля,
+              надежность и безопасность являются приоритетом.<br> Поэтому мы стремимся сотрудничать только с известными брендами,<br>которые славятся своим качеством и надёжностью</p></td>
+        <p>Наша команда экспертов по автозапчастям всегда готова помочь вам найти именно те запчасти, <br>
+            которые отвечают требованиям и спецификациям вашего автомобиля. Мы гарантируем высокое качество <br>
+            всех наших запчастей и предоставляем надежные гарантии на нашу продукцию.</p>
+</div>
+
+<div class="partn">
+    <hr size="15px" color="black">
+    <h1 align="center">Наши партнёры</h1>
+        <div class="logoss">
+            <img src="img/volks.png">
+            <img src="img/bmw.png">
+            <img src="img/kia.png">
+            <img src="img/indexdr.png">
+        </div>
+    <hr size="15px" color="black">
+</div>
+
+<div class="aboutcomp">
+    <img src="img/slider2.png">
+        <div class="textabout">
+            <h1 align="center">О компании</h1>
+            <p>"АвтоТвоё" - это компания, специализирующаяся на продаже <br>
+                высококачественных автозапчастей.Мы понимаем,<br>
+                 что ваш автомобиль - это не просто транспортное средство,<br>
+                  это ваш верный компаньон, который должен быть<br>
+                   всегда в отличном состоянии.Мы предлагаем широкий<br>
+                    ассортимент запчастей для различных марок и моделей<br>
+                     автомобилей. Наша команда профессиональных специалистов<br>
+                      всегда готова предоставить вам экспертные советы и<br>
+                       помочь подобрать нужную запчасть, учитывая ваши требования и бюджет.</p>
+        </div>
+</div>
+
+<div class="ramki">
+    <div class="ramkiki">
+        <div class="1stram">
+            <p><img src="img/1nizmain.png"><br>
+                <b>Новинки амортизаторы</b></p>
+        </div>
+
+        <div class="2stram">
+            <p><img src="img/2nizmain.png"><br>
+            <b>Ожидаемое поступление на<br>
+            склад – вакуумный усилитель<br>
+            тормозов</b></p>
+        </div>
+
+        <div class="3stram">
+            <p><img src="img/2nizmain.png"><br>
+            <b>Новинки амортизаторы</b></p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="ssilk">
+        <ul>
+            <li>Каталог</li>
+            <li>О нас</li>
+        </ul>
+        <ul>
+            <li>Где нас найти</li>
+            <li>Личный кабинет</li>
+        </ul>
+    </div>
+    <div class="rasp">
+        <div class="zvonok">
+            <img src="img/Vectorzvonok.png">
+            <p>Отдел продаж:<br>7 (831) 418-58-57<br>7 (831) 418-58-56</p>
+        </div>
+
+            <div class="chasi">
+                <img src="img/chasi.png">
+                <p>Время работы:<br><strong>8:30-16:30</strong><br>сб,вс-выходной</p>
+            </div>
+    </div>
+
+    <div class="adress">
+        <img src="img/adress.png">
+        <p><b>Адрес:</b><br>
+        г.Пермь<br>
+        Ул.Пушкина д.107А</p>
+    </div>
+    <div class="podpis">
+        <p><b>Разработчик:<br>
+        Калиновский Арсений 1-ИС 3 курс 09.02.07<br>
+        Информационные системы и программирование</b></p>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>

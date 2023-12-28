@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylevhod.css">
+</head>
+<body>
+
+    <div class="vhod">
+        <div class="vverh">
+            <p id="verh">Вход в личный кабинет</p>
+            <img src="img/logo 2.png">
+    </div>
+
+    <form id="loginForm">
+        <div class="login">
+            <h1 align="center">Логин</h1>
+            <input type="text" id="log" required>
+        </div>
+
+        <div class="password">
+            <h1 align="center">Пароль</h1>
+            <input type="text" id="pass" required>
+        </div>
+        <div class="enter">
+            <button type="submit" id="voyti">Войти</button>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            var log = document.getElementById("log").value;
+            var pass = document.getElementById("pass").value;
+      
+            if (log === "admin" && pass === "admin123") {
+                window.location.href = "admin.html";
+            } else if (log === "klient" && pass === "klient") {
+                window.location.href = "lk.html";
+            } else {
+                alert("Неверный логин или пароль, попробуйте еще раз.");
+            }
+        });
+    </script>
+
+        <div class="noacc">
+            <h1>НЕТ АККАУНТА?</h1>
+            <a href="registry.html"><h1><u>Зарегистрироваться</u></h1></a>
+        </div>
+    
+
+    </div>
+    
+</body>
+</html>

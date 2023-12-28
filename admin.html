@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Админ Панель</title>
+  <link rel="stylesheet" href="styleadmin.css">
+</head>
+<body>
+  <h1>Админ Панель</h1>
+  
+  <!-- Форма для добавления товара -->
+  <form id="addProductForm">
+    <h2>Добавить товар</h2>
+    <label for="productName">Название товара:</label>
+    <select id="productName" name="productName" required style="height: 2.5em;">
+      <option value="Двигатель mercedes m113">Двигатель mercedes m113</option>
+      <option value="Подушка безопасности BMW 2009+ F10">Подушка безопасности BMW 2009+ F10</option>
+      <option value="ШИНЫ Tracmax X-Privilo S500 19r">ШИНЫ Tracmax X-Privilo S500 19r</option>
+      <option value="Аккумулятор автомобильный RUNNER AGM 70R RK700">Аккумулятор автомобильный RUNNER AGM 70R RK700</option>
+      <option value="Моторное масло LUKOIL Super">Моторное масло LUKOIL Super</option>
+      <option value="Коврики в салон Hyundai Solaris">Коврики в салон Hyundai Solaris </option>
+
+    </select><br>
+    <div class="price">
+        <label for="productPrice">Цена товара:</label>
+        <input type="number" id="productPrice" name="productPrice" required style="width: 27.5em;margin-left: 3.8em;height: 2.5em;">
+    </div>
+    <button type="submit" id="add">Добавить</button>
+  </form>
+  
+  <!-- Таблица с товарами -->
+  <table>
+    <thead>
+      <tr>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Действия</th>
+      </tr>
+    </thead>
+    <tbody id="productTableBody">
+      <!-- Здесь будут отображаться товары -->
+    </tbody>
+  </table>
+
+  <script>
+    // Функция для добавления товара
+    function addProduct(event) {
+      event.preventDefault(); // Предотвращаем отправку формы
+
+      // Получаем значения полей формы
+      const productName = document.getElementById('productName').value;
+      const productPrice = document.getElementById('productPrice').value;
+
+      // Создаем новую строку для таблицы
+      const newRow = document.createElement('tr');
+      newRow.innerHTML = `
+        <td>${productName}</td>
+        <td>${productPrice} руб</td>
+        <td>
+          <button onclick="deleteProduct(this)" id="deleteButton">Удалить</button>
+        </td>
+      `;
+
+      // Добавляем новую строку в таблицу
+      const tableBody = document.getElementById('productTableBody');
+      tableBody.appendChild(newRow);
+
+      // Очищаем поля формы
+      document.getElementById('productName').value = '';
+      document.getElementById('productPrice').value = '';
+    }
+
+    // Функция для удаления товара
+    function deleteProduct(button) {
+      const row = button.parentNode.parentNode; // Получаем родительскую строку (tr) кнопки
+      row.remove(); // Удаляем строку из таблицы
+    }
+
+    // Обработчик события отправки формы
+    const addProductForm = document.getElementById('addProductForm');
+    addProductForm.addEventListener('submit', addProduct);
+  </script>
+</body>
+</html>

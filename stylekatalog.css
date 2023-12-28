@@ -1,0 +1,1183 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.vverh{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.shapka{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo{
+    width: 480px;
+    height: 137px;
+    align-items: flex-start;
+    margin-left: 50px;
+    display: flex;
+}
+
+.logo img{
+    width: 145px;
+    height: 137px;
+}
+
+.logo p{
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.zvonok{
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    margin-top: 1em;
+}
+
+.zvonok p{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.zvonok img{
+    height: 36px;
+    width: 25px;
+}
+
+.chasi{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    height: 60px;
+    margin-top: 1em;
+}
+
+.chasi p{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.chasi img{
+    height: 36px;
+    width: 36px;
+}
+
+.menu{
+    height: 70px;
+    width: 50em;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -15px;
+    margin-left: 15px;
+    justify-content:flex-end
+}
+
+.menu img{
+    align-items: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu p{
+    margin-left: 15px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color:black
+}
+
+
+
+.navig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navig p{
+    margin-left: 3em;
+    font-size: 24px;
+    margin-top: 3em;
+    text-decoration: none;
+    color:black
+}
+.navig a{
+    text-decoration: none;
+    color:black
+}
+
+.filter{
+    background-color: black;
+}
+
+.main{
+    margin-left: 2em;
+}
+
+#nadp{
+    color: white;
+}
+
+.sortir{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -3em;
+    color: white;
+}
+
+
+#nadp{
+    font-size: 24px;
+}
+
+#sort{
+    font-size: 34px;
+}
+
+#poubivgod{
+    margin-left: 2.1em;
+}
+
+.akse{
+    display: flex;
+    margin-left: 1.3em;
+    margin-top: 1.5em;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#ch2{
+    margin-left: 10px;
+}
+
+#ch3{
+    margin-left: 10px;
+}
+
+.akse input{
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 1.2em;
+}
+
+.find{
+    margin-left: 20em;
+}
+.poisk{
+    display: flex;
+}
+
+.poisk input{
+    height:30px;
+    border-radius: 15px;
+    border: 0 solid;
+    margin: 2em;
+}
+
+#iskat{
+    background-color: white;
+    border-radius: 15px;
+    border: 0 solid;
+    width: 100px;
+    font-size: 16px;
+    height: 20px;
+    margin-left: 10em;
+}
+#iskat p{
+    margin-top: 0em;
+}
+
+.pervayastroka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+.card1{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card1:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card1 a{
+    text-decoration: none;
+    color:white
+}
+
+.card1 img{
+    width: 16em;
+    width: 18em;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+}
+
+.card1 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card1 button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color:white
+}
+
+.card1 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+  }
+
+.card1 h1{
+    font-size: 24px;
+}
+
+.card2{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card2:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card2 img{
+    margin-top: 1em;
+}
+
+.card2 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card2 button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color:white
+}
+.card2 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+.card2 h1{
+    font-size: 24px;
+}
+
+.card3{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card3:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.card3 img{
+    margin-top: 1em;
+}
+
+.card3 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card3 button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color: white;
+
+}
+.card3 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+.card3 h1{
+    font-size: 24px;
+}
+
+.vtorayastroka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+.card4{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card4:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card4 img{
+    margin-top: 1em;
+}
+
+.card4 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card4 button{
+    border-radius: 15px;
+    background-color: black;
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color: white;
+}
+.card4 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+.card4 h1{
+    font-size: 24px;
+}
+
+.card5{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card5:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card5 img{
+    margin-top: 1em;
+}
+
+.card5 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card5 button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color: white;
+}
+.card5 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+.card5 h1{
+    font-size: 20px;
+    margin-top: 1.2em;
+}
+
+.card6{
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 233, 233);
+    border-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    transition: 0.2s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; 
+    justify-content: center;
+}
+.card6:hover {
+    box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+}
+
+.card6 img{
+    margin-top: 1em;
+}
+
+.card6 p{
+    font-size: 24px;
+    height: 1em;
+}
+
+.card6 button{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid;
+    width: 10em;
+    height: 3em;
+    transition: all 0.3s;
+    color: white;
+}
+.card6 button:hover {
+    background-color: #e78484; /* новый цвет фона при ховере */
+    color: #ffffff; /* новый цвет текста при ховере */
+}
+
+.card6 h1{
+    font-size: 20px;
+    margin-top: 1.2em;
+}
+
+
+
+.footer{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rasp{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em;
+}
+
+.adress{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: -0.5em;
+}
+
+.adress img{
+    height: 2em;
+    margin-top:1.5em;
+}
+
+.podpis p{
+    margin-left: 10em;
+}
+
+.ssilk {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align:bottom;
+}
+
+.ssilk li{
+    list-style-type: none;
+}
+
+
+
+
+
+@media screen and (max-width: 720px){
+    body{
+        margin: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    .vverh{
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .shapka{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        
+    }
+    
+    .logo{
+        width: 240px;
+        height: 67px;
+        align-items: flex-start;
+        margin-left: 50px;
+        display: flex;
+    }
+    
+    .logo img{
+        width: 75px;
+        height: 67px;
+    }
+    
+    .logo p{
+        margin-left: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    
+    .zvonok{
+        display: flex;
+        align-items: flex-start;
+        height: 60px;
+        margin-top: 1em;
+    }
+    
+    .zvonok p{
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+    
+    .zvonok img{
+        height: 18px;
+        width: 12px;
+    }
+    
+    .chasi{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 15px;
+        height:30px;
+        margin-top: 1em;
+    }
+    
+    .chasi p{
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+    
+    .chasi img{
+        height: 18px;
+        width: 18px;
+    }
+    
+    .menu{
+        height: 35px;
+        width: 25em;
+        display: flex;
+        align-items: flex-start;
+        margin-top: -15px;
+        margin-left: 15px;
+        justify-content:flex-end
+    }
+    
+    .menu img{
+        align-items: flex-end;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .menu p{
+        margin-left: 15px;
+        align-items: center;
+    }
+    .menu a{
+        text-decoration: none;
+        color:black
+    }
+    
+    
+    
+    .navig{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        width:100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navig p{
+        margin-left: 3em;
+        font-size: 12px;
+        margin-top: 6em;
+        text-decoration: none;
+        color:black
+
+    }
+    .navig a{
+        text-decoration: none;
+        color:black
+    }
+    
+    .filter{
+        background-color: black;
+    }
+    
+    .main{
+        margin-left: 2em;
+    }
+    
+    #nadp{
+        color: white;
+    }
+    
+    .sortir{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -3em;
+        color: white;
+    }
+    .vibor{
+        display: flex;
+        flex-direction: row;
+        font-size: 9px;
+    }
+    
+    
+    #nadp{
+        font-size: 12px;
+    }
+    
+    #sort{
+        font-size: 16px;
+    }
+    
+    #poubivgod{
+        margin-left: 2.1em;
+    }
+    
+    .akse{
+        display: flex;
+        margin-left: 1.3em;
+        margin-top: 1.5em;
+        font-size: 10px;
+        padding: 10px;
+    }
+    
+    #ch2{
+        margin-left: 10px;
+    }
+    
+    #ch3{
+        margin-left: 10px;
+    }
+    
+    .akse input{
+        width: 1em;
+        height: 1em;
+        margin-top: 1.2em;
+    }
+    
+    .find{
+        margin-left: 10em;
+    }
+    .poisk{
+        display: flex;
+    }
+    
+    .poisk input{
+        height:30px;
+        border-radius: 15px;
+        border: 0 solid;
+        margin: 2em;
+    }
+    
+    #iskat{
+        background-color: white;
+        border-radius: 15px;
+        border: 0 solid;
+        width: 50px;
+        font-size: 10px;
+        height: 20px;
+        margin-left: 5em;
+    }
+    #iskat p{
+        margin-top: 0em;
+    }
+    
+    .pervayastroka{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:0 auto;
+    }
+    
+    .card1{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        margin-left: -1 auto;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card1:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card1 a{
+        text-decoration: none;
+        color:white
+    }
+    
+    .card1 img{
+        width: 6em;
+        width: 6em;
+        margin-top: 1em;
+        border: none;
+        outline: none;
+    }
+    
+    .card1 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card1 button{
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        border: 0 solid;
+        width: 7em;
+        height: 2em;
+        transition: all 0.3s;
+        color:white;
+        font-size: 10px;
+    }
+    
+    .card1 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+      }
+    
+    .card1 h1{
+        font-size: 12px;
+    }
+    
+    .card2{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        margin-left: 2em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card2:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card2 img{
+        margin-top: 1em;
+        width: 6em;
+        height: 6em;
+    }
+    
+    .card2 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card2 button{
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        border: 0 solid;
+        width: 6em;
+        height: 2em;
+        transition: all 0.3s;
+        color:white;
+        font-size: 10px;
+    }
+    .card2 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+    }
+    
+    .card2 h1{
+        font-size: 12px;
+    }
+    
+    .card3{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        margin-left: 2em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card3:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card3 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .card3 img{
+        margin-top: 1em;
+        width: 6em;
+        height: 4em;
+    }
+    
+    .card3 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card3 button{
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        border: 0 solid;
+        width: 6em;
+        height: 2em;
+        transition: all 0.3s;
+        color: white;
+        font-size: 10px;
+    
+    }
+    .card3 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+    }
+    
+    .card3 h1{
+        font-size: 12px;
+    }
+    
+    .vtorayastroka{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    .card4{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card4:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card4 img{
+        margin-top: 1em;
+        width: 6em;
+        height: 4em;
+    }
+    
+    .card4 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card4 button{
+        border-radius: 15px;
+        background-color: black;
+        border: 0 solid;
+        width: 8em;
+        height: 2em;
+        transition: all 0.3s;
+        color: white;
+    }
+    .card4 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+    }
+    
+    .card4 h1{
+        font-size: 12px;
+    }
+    
+    .card5{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        margin-left: 2em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card5:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card5 img{
+        margin-top: 1em;
+        width: 6em;
+        height: 4em;
+    }
+    
+    .card5 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card5 button{
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        border: 0 solid;
+        width: 8em;
+        height: 2em;
+        transition: all 0.3s;
+        color: white;
+    }
+    .card5 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+    }
+    
+    .card5 h1{
+        font-size:  12px;
+        margin-top: 1.2em;
+    }
+    
+    .card6{
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        margin-top: 3em;
+        margin-left: 2em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 233, 233);
+        border-radius: 1em;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column; /* Размещаем элементы в колонку */
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; 
+        justify-content: center;
+    }
+    .card6:hover {
+        box-shadow: 4px 8px 16px rgba(63, 63, 63, 0.2);
+    }
+    
+    .card6 img{
+        margin-top: 1em;
+        width: 6em;
+        height: 4em;
+    }
+    
+    .card6 p{
+        font-size: 12px;
+        height: 1em;
+    }
+    
+    .card6 button{
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        border: 0 solid;
+        width: 8em;
+        height: 2em;
+        transition: all 0.3s;
+        color: white;
+    }
+    .card6 button:hover {
+        background-color: #e78484; /* новый цвет фона при ховере */
+        color: #ffffff; /* новый цвет текста при ховере */
+    }
+    
+    .card6 h1{
+        font-size:  12px;
+        margin-top: 1.2em;
+    }
+    
+    
+    
+    .footer{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .rasp{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3em;
+    }
+    
+    .adress{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2em;
+        margin-top: -0.5em;
+    }
+    
+    .adress img{
+        height: 2em;
+        margin-top:1.5em;
+    }
+    
+    .podpis p{
+        margin-left: 10em;
+    }
+    
+    .ssilk {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-align:bottom;
+    }
+    
+    .ssilk li{
+        list-style-type: none;
+    }
+}
+    

@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.vverh{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.shapka{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo{
+    width: 480px;
+    height: 137px;
+    align-items: flex-start;
+    margin-left: 50px;
+    display: flex;
+}
+
+.logo img{
+    width: 145px;
+    height: 137px;
+}
+
+.logo p{
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.zvonok{
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    margin-top: 1em;
+}
+
+.zvonok p{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.zvonok img{
+    height: 36px;
+    width: 25px;
+}
+
+.chasi{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    height: 60px;
+    margin-top: 1em;
+}
+
+.chasi p{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.chasi img{
+    height: 36px;
+    width: 36px;
+}
+
+.menu{
+    height: 70px;
+    width: 50em;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -15px;
+    margin-left: 15px;
+    justify-content:flex-end;
+    color:black;
+    text-decoration: none;
+}
+
+.menu img{
+    align-items: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu p{
+    margin-left: 13px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.navig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navig a{
+    text-decoration: none;
+    color: black;
+}
+
+.navig p{
+    margin-left: 3em;
+    font-size: 24px;
+    margin-top: -1em;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+
+}
+
+.gallery-img {
+    width: 55em;
+    height: 25em;
+    margin: 10px;
+    margin-top: 3em;
+}
+
+.hidden {
+    display: none;
+}
+
+.slider button{
+    width: 10em;
+    height: 35em;
+    border-radius: 15em;
+    border: 0px solid;
+    background-color:transparent;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.slider{
+    width: 100%;
+    height:32em;
+    background-color: rgb(63, 68, 63);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.textcompany{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+.logoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcomp{
+    display: flex;
+    flex-direction: row;
+    font-size:24px;
+    margin-left: 10em;
+    margin-top: 3em;
+}
+
+.textabout{
+    margin-left: 6em;
+}
+
+.ramki{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 28em;
+}
+
+.ramkiki{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-left:4em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ssilk {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align:bottom;
+}
+
+.ssilk li{
+    list-style-type: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rasp{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em;
+}
+
+.adress{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: -0.5em;
+}
+
+.adress img{
+    height: 2em;
+    margin-top:1.5em;
+}
+
+.podpis p{
+    margin-left: 10em;
+}
+
+@media screen and (max-width: 720px) {
+        .vverh {
+            height: auto;
+            padding: 10px;
+        }
+    
+        .shapka {
+            height: auto;
+        }
+    
+        .logo {
+            width: 100%;
+            height: auto;
+            align-items: center;
+            margin-left: 0;
+        }
+    
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .logo p {
+            margin-left: 0;
+        }
+    
+        .zvonok {
+            margin-top: 0;
+        }
+    
+        .zvonok p {
+            margin-left: 0;
+        }
+    }
