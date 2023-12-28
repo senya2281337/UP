@@ -124,4 +124,12 @@ table {
   }
 
 }
-  
+
+#exit{
+  width: 10em;
+  font-size: 32px;
+  border-radius: 2em;
+  background-color: rgb(165, 2, 2);
+  color:white;
+  margin-top: 2em;
+}
